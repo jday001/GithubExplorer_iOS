@@ -84,7 +84,7 @@ class ActivityFeedTableViewController: UITableViewController, MenuPresenter {
         guard let cell = cell as? EventTableViewCell else { return }
         
         let event = events[indexPath.row]
-        cell.creationDateLabel.text = event.creationDate
+        cell.creationDateLabel.text = event.displayDate
         cell.actorNameLabel.text = event.actor.login
         cell.repoNameLabel.text = event.repo.name
         

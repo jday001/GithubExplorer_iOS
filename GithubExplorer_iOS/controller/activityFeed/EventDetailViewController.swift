@@ -26,11 +26,13 @@ class EventDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        guard let event = event else { return }
+        
         userAvatar.image = roundedAvatarImage
-        creationDateLabel.text = event?.creationDate ?? ""
-        actorNameLabel.text = event?.actor.login ?? ""
-        branchNameLabel.text = event?.payload.ref?.replacingOccurrences(of: "refs/heads/", with: "") ?? ""
-        repoNameLabel.text = event?.repo.name ?? ""
-        commitsCountLabel.text = "\(event?.payload.commits?.count ?? 0) commits"
+        creationDateLabel.text = event.displayDate
+        actorNameLabel.text = event.actor.login
+        branchNameLabel.text = event.payload.ref?.replacingOccurrences(of: "refs/heads/", with: "") ?? ""
+        repoNameLabel.text = event.repo.name
+        commitsCountLabel.text = "\(event.payload.commits?.count ?? 0) commits"
     }
 }

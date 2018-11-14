@@ -34,6 +34,7 @@
 		65480E1A218755D000DD4B32 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65480E19218755D000DD4B32 /* MenuViewController.swift */; };
 		65480E1C2187598E00DD4B32 /* ActivityFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65480E1B2187598E00DD4B32 /* ActivityFeedTableViewController.swift */; };
 		65480E1E218759AB00DD4B32 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65480E1D218759AB00DD4B32 /* SearchViewController.swift */; };
+		65E6BB0B219CAEF700739FDC /* DateFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6BB0A219CAEF700739FDC /* DateFormatters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		65480E19218755D000DD4B32 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		65480E1B2187598E00DD4B32 /* ActivityFeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityFeedTableViewController.swift; sourceTree = "<group>"; };
 		65480E1D218759AB00DD4B32 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		65E6BB0A219CAEF700739FDC /* DateFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 				65113807218795DA007B4BD9 /* AppColors.swift */,
 				6511380F2187A804007B4BD9 /* ActivitySpinner.swift */,
 				651138142187AAFE007B4BD9 /* KeychainKeys.swift */,
+				65E6BB0A219CAEF700739FDC /* DateFormatters.swift */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				653520F02182BBEE009CF1A4 /* RemoteDataRequestor.swift in Sources */,
 				6511380E21879C8F007B4BD9 /* SearchResultsTableViewController.swift in Sources */,
 				65480E1E218759AB00DD4B32 /* SearchViewController.swift in Sources */,
+				65E6BB0B219CAEF700739FDC /* DateFormatters.swift in Sources */,
 				6511380621878FE8007B4BD9 /* EventDetailViewController.swift in Sources */,
 				65480E1A218755D000DD4B32 /* MenuViewController.swift in Sources */,
 				653520F22182BC6B009CF1A4 /* RemoteRequestManager.swift in Sources */,

@@ -19,6 +19,14 @@ struct Event: Codable {
     let repo: EventRepo
     let type: String
     
+    var displayDate: String {
+        guard let date = DateFormatters.inputDateFormatter.date(from: creationDate) else {
+            return creationDate
+        }
+        
+        return DateFormatters.displayDateFormatter.string(from: date)
+    }
+    
     enum CodingKeys: String, CodingKey {
         case actor
         case creationDate = "created_at"
