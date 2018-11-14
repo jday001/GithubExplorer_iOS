@@ -21,4 +21,4 @@ This is a version of the GithubExplorer project written natively for iOS in Swif
 | __External Dependencies__ | None* |
 | __Learning Curve__ | Pretty low since the adoption of Swift  |
 
-*The project does include a homemade networking library, and a commonly used utility for managing Keychain access which would rarely change or need to be updated. These are pretty common one time setups for an iOS app.
+*The project does include a homemade networking library, [RemoteDataRequestor](https://github.com/jdayCBRE/GithubExplorer_iOS/blob/master/GithubExplorer_iOS/util/RemoteDataRequestor.swift), and a commonly used utility for managing Keychain access, [KeychainSwift](https://github.com/jdayCBRE/GithubExplorer_iOS/blob/master/GithubExplorer_iOS/util/KeychainSwift.swift), which would rarely change or need to be updated. These are pretty common one time setups for an iOS app.
