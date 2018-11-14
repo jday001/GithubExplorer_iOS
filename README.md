@@ -2,6 +2,8 @@
 
 This is a version of the GithubExplorer project written natively for iOS in Swift.
 
+![alt text](https://github.com/jdayCBRE/GithubExplorer_iOS/blob/master/GithubExplorer_iOS/media/GithubExplorer_iOS.gif)
+
 #### Pros
 - Swift (type safety, concise, great readability)
 - XCode, Simulator, Instruments
